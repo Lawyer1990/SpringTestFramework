@@ -13,7 +13,7 @@ import java.util.List;
 import static framework.config.Config.URL_APP;
 
 @Service
-public class TopicService extends BaseApiService {
+public class TopicApiService extends BaseApiService {
 
     private static final String TOPIC_ADD_ENDPOINT = "topic/add";
     private static final String TOPICS_ALL_ENDPOINT = "topics";
